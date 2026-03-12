@@ -1,0 +1,144 @@
+start parameters
+	nItr = 30000000
+	timestep = 0.1
+	timeWrite = 500
+	trajWrite = 1000000
+	restartWrite = 200000
+	checkPoint = 1000000
+	pdbWrite = 100000
+	overlapSepLimit = 0.1
+    scaleMaxDisplace = 100.0
+end parameters
+
+start boundaries
+	WaterBox = [350.0, 350.0, 350.0]
+end boundaries
+
+start molecules
+	dode : 1300
+end molecules
+
+start reactions
+    
+    # Binding reactions
+    dode(dodedode1) + dode(dodedode1) <-> dode(dodedode1!1).dode(dodedode1!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode2) + dode(dodedode2) <-> dode(dodedode2!1).dode(dodedode2!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode3) + dode(dodedode3) <-> dode(dodedode3!1).dode(dodedode3!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode4) + dode(dodedode4) <-> dode(dodedode4!1).dode(dodedode4!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode5) + dode(dodedode5) <-> dode(dodedode5!1).dode(dodedode5!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode1) + dode(dodedode2) <-> dode(dodedode1!1).dode(dodedode2!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode1) + dode(dodedode3) <-> dode(dodedode1!1).dode(dodedode3!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode1) + dode(dodedode4) <-> dode(dodedode1!1).dode(dodedode4!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode1) + dode(dodedode5) <-> dode(dodedode1!1).dode(dodedode5!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode2) + dode(dodedode3) <-> dode(dodedode2!1).dode(dodedode3!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode2) + dode(dodedode4) <-> dode(dodedode2!1).dode(dodedode4!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode2) + dode(dodedode5) <-> dode(dodedode2!1).dode(dodedode5!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode3) + dode(dodedode4) <-> dode(dodedode3!1).dode(dodedode4!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode3) + dode(dodedode5) <-> dode(dodedode3!1).dode(dodedode5!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+    dode(dodedode4) + dode(dodedode5) <-> dode(dodedode4!1).dode(dodedode5!1)
+		onRate3Dka = 10
+		offRatekb = 10000
+		norm1 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		norm2 = [0.0, -0.5257311121191336, 0.8506508083520398]
+		sigma = 1.0
+		assocAngles = [2.58801829,2.58801829,0.0,0.0,0.0]
+    
+end reactions

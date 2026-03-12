@@ -1,0 +1,24 @@
+Name = dode
+
+checkOverlap = true
+# translational diffusion constants
+D = [13.0, 13.0, 13.0]
+
+# rotational diffusion constants
+Dr = [0.3, 0.3, 0.3]
+
+# Coordinates
+COM   0.0000000   0.0000000   0.0000000
+dodedode1  -3.1776724   0.8782871   0.5428113
+dodedode2  -1.9639096   -2.2993854   -1.4210983
+dodedode3  1.9639096   -2.2993854   -1.4210983
+dodedode4  3.1776724   0.8782871   0.5428113
+dodedode5  0.0000000   2.8421966   1.7565741
+
+# bonds
+bonds = 5
+com dodedode1
+com dodedode2
+com dodedode3
+com dodedode4
+com dodedode5

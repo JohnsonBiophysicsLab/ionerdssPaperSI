@@ -1,0 +1,44 @@
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - === PDB Pipeline Started for dode_gen ===
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Workspace: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Timestamp: 2026-03-02T17:14:52.355741
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Initialized workspace for dode_gen at /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Created NERDSS export directory: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir/nerdss_files
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Exporting NERDSS simulation files...
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using representative instance (id=23455905641136) with 5 interfaces for molecule type dode
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Generated site label: dodedode1 -> dodedode1 (mol1=dodedod, mol2=e, index=1)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Generated site label: dodedode2 -> dodedode2 (mol1=dodedod, mol2=e, index=2)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Generated site label: dodedode3 -> dodedode3 (mol1=dodedod, mol2=e, index=3)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Generated site label: dodedode4 -> dodedode4 (mol1=dodedod, mol2=e, index=4)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Generated site label: dodedode5 -> dodedode5 (mol1=dodedod, mol2=e, index=5)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Wrote .mol file with 5 interfaces using representative coordinates: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir/nerdss_files/dode.mol
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Singleton interface dode.dodedode1 using default normal [0. 0. 1.] (dot=0.162)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Calculated normal vector for instance 23455905641136 of dode singleton interface dodedode1 (sites ['dodedode1']): [0. 0. 1.]
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Singleton interface dode.dodedode2 using default normal [0. 0. 1.] (dot=0.425)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Calculated normal vector for instance 23455905641136 of dode singleton interface dodedode2 (sites ['dodedode2']): [0. 0. 1.]
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Singleton interface dode.dodedode3 using default normal [0. 0. 1.] (dot=0.425)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Calculated normal vector for instance 23455905641136 of dode singleton interface dodedode3 (sites ['dodedode3']): [0. 0. 1.]
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Singleton interface dode.dodedode4 using default normal [0. 0. 1.] (dot=0.162)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Calculated normal vector for instance 23455905641136 of dode singleton interface dodedode4 (sites ['dodedode4']): [0. 0. 1.]
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Singleton interface dode.dodedode5 using default normal [0. 0. 1.] (dot=0.526)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Calculated normal vector for instance 23455905641136 of dode singleton interface dodedode5 (sites ['dodedode5']): [0. 0. 1.]
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode1', 'dode', 'dodedode1'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode2', 'dode', 'dodedode2'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode3', 'dode', 'dodedode3'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode4', 'dode', 'dodedode4'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode5', 'dode', 'dodedode5'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode1', 'dode', 'dodedode2'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode1', 'dode', 'dodedode3'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode1', 'dode', 'dodedode4'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode1', 'dode', 'dodedode5'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode2', 'dode', 'dodedode3'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode2', 'dode', 'dodedode4'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode2', 'dode', 'dodedode5'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode3', 'dode', 'dodedode4'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode3', 'dode', 'dodedode5'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using precalculated geometry for ('dode', 'dodedode4', 'dode', 'dodedode5'): (2.58801829, 2.58801829, 0.0, 0.0, 0.0)
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Using automatically calculated NERDSS time step: 0.224887 us
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Wrote parms.inp file: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir/nerdss_files/parms.inp
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - Exported 2 NERDSS files
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO -   dode_mol: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir/nerdss_files/dode.mol
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO -   parms: /scratch4/mjohn218/sho/ionerdss/data/dodecahedral_dir/nerdss_files/parms.inp
+2026-03-02 17:14:52 - ionerdss.pdb.dode_gen - INFO - ============================================================
