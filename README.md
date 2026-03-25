@@ -1,5 +1,7 @@
 # ioNERDSS Paper Supplementary Repository
 
+[![View ioNERDSS Repository](https://img.shields.io/badge/GitHub-ioNERDSS_Repo-181717?style=for-the-badge&logo=github)](https://github.com/JohnsonBiophysicsLab/ionerdss)
+
 This repository contains simulation inputs, output data, intermediate processing artifacts, and visualization files used in support of the ioNERDSS paper. It is intended to serve as part of the supplementary information (SI) accompanying the paper and to provide a structured record of the example systems, coarse-grained models, and NERDSS simulation results discussed in the paper.
 
 Each top-level directory corresponds to a specific test case, assembly system, or structure analyzed in the study. Depending on the system, these directories may include:
@@ -17,5 +19,4 @@ Current example systems in this repository include:
 - `6bno/`
 - `dodecahedron/`
 - `proteosome/`
-
 
