@@ -1,3 +1,30 @@
+"""
+
+This script builds the benchmark set of PDB IDs for ioNERDSS validation.
+
+The selection criteria for the benchmark set:
+
+- protein-only entries: selected_polymer_entity_types == "Protein (only)"
+- experimental method in X-RAY DIFFRACTION or ELECTRON MICROSCOPY
+- exact protein chain count: polymer_entity_instance_count_protein == n_chains
+- homomer vs heteromer based on polymer entity count
+- resolution <= 3.5 Angstrom
+- (tunable in main block) number of complexes (3~12 by default)
+
+X-ray diffraction or electron microscopy are the main experimental
+structure sources that usually provide full 3D coordinates for multimeric
+protein assemblies. Those methods are much more likely than others to have
+explicit biological assembly models that can be fetched and processed
+consistently. Entries from methods like SOLUTION NMR, where assemblies may
+be represented as NMR ensembles or partial models, are less consistent
+for this benchmark. Entries that have missing experimental method or designed
+in silico are also excluded for the purpose of this benchmark.
+
+The criterion is mainly a dataset-quality and consistency filter, not a
+biological rule. It reduces weird edge cases and keeps the benchmark focused
+on structures that the current ioNERDSS PDB pipeline is built to handle well.
+
+"""
 import csv
 import json
 import math
